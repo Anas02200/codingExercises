@@ -1,0 +1,7 @@
+package org.sandbox.ExceptionsExo;
+public class CustomException extends Exception {
+
+    public CustomException(String message) {
+        super(message);
+    }
+}
